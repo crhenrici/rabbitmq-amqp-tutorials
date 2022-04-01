@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: usage_message
+  rabbitmq:
+    host: 10.211.55.5
+    username: testUser
+    password: test1234
+    port: 5672
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 10000
